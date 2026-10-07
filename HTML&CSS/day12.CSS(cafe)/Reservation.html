@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            text-align: center;
+            color: white;
+            background: linear-gradient(to right,  rgb(125, 73, 8), rgb(58, 35, 5));
+        }
+        body{
+            background-image: url("https://png.pngtree.com/background/20230516/original/pngtree-coffee-shop-with-many-wooden-tables-and-chairs-picture-image_2611848.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .section{
+            font-size: 20px;
+            color: yellow;
+            text-align: center; 
+        }
+        .nav a{
+            font-size: 20px;
+            color: rgb(210, 204, 196);
+        }
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            background-color: white;
+            color: black;
+        }
+        caption{
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(96, 61, 13);
+            color: rgb(250, 239, 239);
+        }
+        th{
+            border: 1px solid rgb(12, 11, 11);
+            padding: 12px;
+            text-align: center;
+            background-color: rgb(105, 65, 10);
+            color: white;
+        }
+        td{
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center; 
+        }
+        th{
+            text-align: center;
+            font-size: 18px;
+        }
+        }
+        #h21{
+            color:red;
+        }
+
+        .form{
+            text-align:center;
+            background-color:rgb(246, 201, 146);
+            padding:20px;
+            font-size: 20px;
+        }
+        .footer{
+            text-align:center;
+            padding:20px;
+        }
+
+        #input1,#input2{
+            background-color:chocolate;
+            color:white;
+            padding:8px 15px;
+        }
+        .contact{
+            font-size: 20px;
+            color: rgb(244, 206, 157);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <div class="head">
+        <h1>Brew & Bite 60 cafe☕</h1><br>
+        <h2>Where Coffee Meets Conversations</h2><br>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="menu.html">Menu</a>
+        </nav>
+    </div>
+    <br>
+    <div class="section">
+        <h1>Upcoming Events🎉</h1>
+    </div>
+    <table>
+            <caption>Upcoming Events </caption>
+            <tr>
+                <th>Category</th>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Music</td>
+                <td>Live Music Night</td>
+                <td>10 july 2026</td>
+            </tr>
+            <tr>
+                <td>Acoustic Evening</td>
+                <td>18 july</td>
+                <td>8 PM</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Workshop</td>
+                <td>Coffee Workshop</td>
+                <td>15 july 2026</td>
+                <td>5 PM</td>
+            </tr>
+            <tr>
+                <td>Dessert Festival</td>
+                <td>20 july 2026</td>
+                <td>6 Pm</td>
+            </tr>
+    </table>
+    <hr>
+    <div class="section">
+        <h1>Reserve the Table🍽️</h1>
+        <p>Fill in the details and Reserve your favorite spot</p>
+    </div>
+    
+<div class="form">
+
+    <h2 id="h21">Reservation Form</h2>
+
+    <form>
+
+        <label><b>Full Name</b></label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label><b>Email</b></label><br>
+        <input type="email" placeholder="Enter email"><br><br>
+
+        <label><b>Phone Number</b></label><br>
+        <input type="number"><br><br>
+
+        <label><b>Reservation Date</b></label><br>
+        <input type="date"><br><br>
+
+        <label><b>Reservation Time</b></label><br>
+        <input type="time"><br><br>
+        <label><b>Occasion</b></label><br>
+        <input type="radio" id="input1" value="occasion">
+        <label>Birthday</label><br>
+        <input type="radio" id="anniversary" name="occasion">
+        <label for="anniversary">Anniversary</label><br>
+        <input type="radio" id="casual" name="occasion">
+        <label for="casual">Casual Visit</label><br><br>
+        <label></label>
+        <label><b>Special Request</b></label><br>
+        <textarea rows="5" cols="17"></textarea><br><br>
+        <input type="button" value="Reserve Now" id="input1">
+        <input type="button" value="Reset" id="input2">
+
+    </p>
+
+        
+
+
+    </form>
+
+</div>
+ <div class="contact">
+    <h1 id="h21">Contact Us📞</h1>
+
+        <p>Email:neelimakayasiri00@gmail.com</p>
+
+        <p>phone:+91 8106066444</p>
+
+        <p>Address:KPHB,Hyderbad</p>
+
+    </div>
+
+
+        
+    </div>
+</body>
+</html>
